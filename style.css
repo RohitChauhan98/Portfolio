@@ -1,0 +1,284 @@
+
+
+/* PAGE 1 */
+
+a li {
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    /* color: rgb(63, 59, 59); */
+
+}
+
+a li:hover {
+    color: rgb(178, 97, 97);
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+}
+
+.nav-links {
+    margin-right: 50px;
+}
+
+.navbar {
+    margin-left: auto;
+    width: 800px;
+    justify-content: center;
+
+}
+
+.intro {
+    margin-top: 100px;
+    display: flex;
+    font-family: 'Golos Text', sans-serif;
+    /* color: rgb(63, 59, 59); */
+    font-size: 25px;
+}
+
+.intro-text {
+    margin: 100px 150px;
+    margin-bottom: 10px;
+}
+
+.profile {
+    border-radius: 50%;
+    margin: 0px 50px;
+    margin-right: 50px;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profileimg {
+    margin-right: 50px;
+    margin: 20px auto;
+
+}
+
+.intro h1 {
+    margin-bottom: -10px;
+}
+
+.btn {
+    margin-left: 20px;
+    padding: 20px;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 200px;
+    /* color: rgb(63, 59, 59); */
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.btndiv {
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.btn:hover {
+    background-color: rgb(178, 97, 97);
+    color: white;
+
+}
+
+
+
+.page2 {
+    display: flex;
+    margin: 250px auto;
+
+}
+
+.about {
+    font-family: 'Golos Text', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+    width: 600px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(233, 219, 221);
+    margin: 50px auto;
+    font-size: 20px;
+    /* color: rgb(63, 59, 59);    */
+}
+
+.ab2 {
+    margin: 30px auto;
+    height: 300px;
+    width: 600px;
+}
+
+
+.page3 {
+    font-family: 'Golos Text', sans-serif;
+    /* display: grid; */
+    text-align: center;
+    font-size: 25px;
+    /* color: rgb(63, 59, 59); */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.work {
+    margin-bottom: 80px;
+}
+
+
+
+.darkmodebtn {
+
+    margin-left: 90px;
+    margin-top: -4px;
+    padding: 5px;
+    border: 0px;
+    background: transparent;
+}
+
+
+.contactHeading {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+input:focus {
+    /* border: 1px solid #1670BE; */
+    /* box-shadow: 0 0 3px #1670BE; */
+    outline-offset: 0px;
+    outline: none;
+}
+
+.btnProject {
+    border: 0px;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 15px 15px;
+    font-family: 'Golos Text', sans-serif;
+
+    background-color: rgb(233, 219, 221);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btnSubmit {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+
+
+
+/* Responsiveness */
+@media only screen and (max-width: 500px) {
+   
+    html{
+        margin: 0px;
+        padding: 0px;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .grid-container {
+        display: block;
+    }
+
+    .intro {
+        display: grid;
+        font-family: 'Golos Text', sans-serif;
+        /* color: rgb(63, 59, 59); */
+        font-size: 15px;
+        margin: 100px auto;
+        /* width: 100vw; */
+
+    }
+
+    .intro-text {
+        /* width: 470px; */
+        margin: 0 auto;
+        width: 200px;
+        margin-top: 300px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .profile {
+        width: 220px;
+        height: 220px;
+
+    }
+
+    .profileimg {
+        position: absolute;
+        top: 35px;
+        left: 35px;
+        margin: 20px auto;
+
+    }
+
+    .page2 {
+
+        display: block;
+        margin: 120px auto;
+    }
+
+
+    .page3 {
+        margin: 120px auto;
+        text-align: center;
+    }
+
+    .work {
+        text-align: center;
+    }
+
+
+    .navbar {
+        display: none;
+    }
+
+    .about {
+        width: 300px;
+        margin: 30px auto;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+
+    .btn{
+        width: 180px;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+
+
+    
+
+    
+
+   
+    .btnSubmit {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    
+
+    
+}
