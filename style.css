@@ -1,4 +1,9 @@
+body{
+    min-height: 100vh;
+    width:100vw;
+    overflow-x:hidden;
 
+}
 
 /* PAGE 1 */
 
@@ -188,32 +193,27 @@ input:focus {
 /* Responsiveness */
 @media only screen and (max-width: 500px) {
    
-    html{
-        margin: 0px;
-        padding: 0px;
-        width: 100vw;
-        height: 100vh;
-    }
+    
 
     .grid-container {
         display: block;
     }
 
     .intro {
-        display: grid;
+        display: flex;
+        flex-direction: column-reverse;
         font-family: 'Golos Text', sans-serif;
         /* color: rgb(63, 59, 59); */
         font-size: 15px;
-        margin: 100px auto;
-        /* width: 100vw; */
+        margin: 50px auto;
 
     }
 
     .intro-text {
-        /* width: 470px; */
+       
         margin: 0 auto;
         width: 200px;
-        margin-top: 300px;
+        margin-top: 20px;
         text-align: center;
         padding: 10px;
     }
@@ -225,9 +225,6 @@ input:focus {
     }
 
     .profileimg {
-        position: absolute;
-        top: 35px;
-        left: 35px;
         margin: 20px auto;
 
     }
@@ -257,7 +254,7 @@ input:focus {
         width: 300px;
         margin: 30px auto;
         padding: 10px;
-        font-size: 20px;
+        font-size: 18px;
     }
     
 
@@ -265,15 +262,20 @@ input:focus {
         width: 180px;
         margin: 0px auto;
         margin-top: 30px;
+        font-size: 12px;
     }
 
 
-    
+    html, body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
 
     
 
    
-    .btnSubmit {
+    .btnProject {
+        position: absolute;
         right: 20px;
         bottom: 20px;
     }
