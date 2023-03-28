@@ -253,7 +253,7 @@ input:focus {
     .about {
         width: 300px;
         margin: 30px auto;
-        padding: 10px;
+        padding: 10px 20px;
         font-size: 18px;
     }
     
