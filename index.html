@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+
     <title>Document</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -101,8 +106,8 @@
                 </div>
 
             </div>
-            <div class="profileimg" data-aos="fade-left" >
-                <img src="Images/profile.png" alt="" srcset=""  class="profile">
+            <div class="profileimg" data-aos="fade-left">
+                <img src="Images/profile.png" alt="" srcset="" class="profile">
             </div>
         </div>
 
@@ -110,98 +115,101 @@
 
 
         <div class="page2" id="page2">
-                <div class="about" data-aos="fade-right">
-                    <h1>About me</h1>
-                    <p>I'm a Web Developer with a passion for creativity,I've worked in many projects</p>
-                </div>
-    
-                <div class="about " data-aos="fade-left">
-                    <h1>My Skills</h1>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam magni accusamus pariatur itaque
-                    distinctio quo magnam accusantium rerum neque, tenetur dicta veniam quae non nam, architecto aliquid eum
-                    laboriosam
-    
-                </div>
+            <div class="about" data-aos="fade-right">
+                <h1>About me</h1>
+                <p>I'm a Web Developer with a passion for creativity,I've worked in many projects</p>
+            </div>
+
+            <div class="about " data-aos="fade-left">
+                <h1>My Skills</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam magni accusamus pariatur itaque
+                distinctio quo magnam accusantium rerum neque, tenetur dicta veniam quae non nam, architecto aliquid eum
+                laboriosam
+
+            </div>
         </div>
 
 
         <div class="page3" id="page3">
             <h1 class="work">My Work</h1>
             <div class="grid-container">
-            <div class="about ab2" data-aos="fade-left">
-                <h2>My Dairy</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nihil ex autem error! Quae id rerum vero
-                modiea enim accusamus veritatis repellendus! Eum dolore laudantium odit temporibus voluptate excepturi
-                <br>
-                <button class="btnProject"> View Project</button>
+                <div class="about ab2" data-aos="fade-left">
+                    <h2>My Dairy</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nihil ex autem error! Quae id rerum
+                    vero
+                    modiea enim accusamus veritatis repellendus! Eum dolore laudantium odit temporibus voluptate
+                    excepturi
+                    <br>
+                    <button class="btnProject"> View Project</button>
+
+                </div>
+                <div class="about ab2" data-aos="fade-right">
+                    <h2>Amazon Clone</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat provident dolor enim cupiditate
+                    laborum
+                    odio aliquid excepturi expedita illo v
+                    <button class="btnProject"> View Project</button>
+
+                </div>
+                <div class="about ab2" data-aos="fade-left">
+                    <h2>Weather App</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum magnam recusandae distinctio
+                    laboriosam
+                    exerc
+                    <button class="btnProject"> View Project</button>
+
+                </div>
+                <div class="about ab2" data-aos="fade-right">
+                    <h2>Self Driving Car - AI Model</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum magnam recusandae distinctio
+                    laboriosam
+                    exercitati
+                    <button class="btnProject"> View Project</button>
+
+                </div>
+                <div class="about ab2" data-aos="fade-left">
+                    <h2>Mapin App</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum magnam recusandae distinctio
+                    laboriosam
+                    exercitation
+                    minus odit?
+                    <button class="btnProject"> View Project</button>
+
+                </div>
 
             </div>
-            <div class="about ab2" data-aos="fade-right">
-                <h2>Amazon Clone</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat provident dolor enim cupiditate laborum
-                odio aliquid excepturi expedita illo v
-                <button class="btnProject"> View Project</button>
+
+
+            <div class="contact" id="contact">
+
 
             </div>
-            <div class="about ab2" data-aos="fade-left">
-                <h2>Weather App</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum magnam recusandae distinctio
-                laboriosam
-                exerc
-                <button class="btnProject"> View Project</button>
 
-            </div>
-            <div class="about ab2" data-aos="fade-right">
-                <h2>Self Driving Car - AI Model</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum magnam recusandae distinctio
-                laboriosam
-                exercitati
-                <button class="btnProject"> View Project</button>
 
-            </div>
-            <div class="about ab2" data-aos="fade-left">
-                <h2>Mapin App</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum magnam recusandae distinctio
-                laboriosam
-                exercitation
-                minus odit?
-                <button class="btnProject"> View Project</button>
-
-            </div>
-            
         </div>
 
-        
-        <div class="contact" id="contact">
-                
+        <script>
+            function toggleDarkMode() {
+                var lightMode = document.getElementById("light-mode");
+                var darkMode = document.getElementById("dark-mode");
+                if (darkMode.disabled) {
+                    lightMode.disabled = true;
+                    darkMode.disabled = false;
 
-        </div>
+                } else {
+                    lightMode.disabled = false;
+                    darkMode.disabled = true;
 
-
-    </div>
-
-    <script>
-        function toggleDarkMode() {
-            var lightMode = document.getElementById("light-mode");
-            var darkMode = document.getElementById("dark-mode");
-            if (darkMode.disabled) {
-                lightMode.disabled = true;
-                darkMode.disabled = false;
-
-            } else {
-                lightMode.disabled = false;
-                darkMode.disabled = true;
-
+                }
             }
-        }
-    </script>
+        </script>
 
 
-    <!-- //aos data -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+        <!-- //aos data -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
 </body>
 
